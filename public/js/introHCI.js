@@ -14,7 +14,7 @@ function initializePage() {
 
 		var url_call = '/customer/'+idNumber;
 
-		function addcustomerDetails(customer_json) {
+		function addCustomerDetails(customer_json) {
 
 			// var new_html =
 			// 	'<div class="customer-date">'+'Card ID: '+customer_json['date']+'</div>'+
@@ -26,7 +26,7 @@ function initializePage() {
 		}
 
 		// issue the GET request
-		$.get(url_call, addcustomerDetails);
+		$.get(url_call, addCustomerDetails);
 	});
 }
 

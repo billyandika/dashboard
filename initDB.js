@@ -37,14 +37,14 @@ models.Customer
 function onceClear(err) {
   if(err) console.log(err);
 
-  // loop over the projects, construct and save an object from each one
+  // loop over the customers, construct and save an object from each one
   // Note that we don't care what order these saves are happening in...
   var to_save_count = customers_json.length;
   for(var i=0; i<customers_json.length; i++) {
     var json = customers_json[i];
-    var cust = new models.Customer(json);
+    var proj = new models.Customer(json);
 
-    cust.save(function(err, cust) {
+    proj.save(function(err, proj) {
       if(err) console.log(err);
 
       to_save_count--;
