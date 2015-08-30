@@ -10,7 +10,7 @@ var CustomerSchema = new Mongoose.Schema({
   	"phone": String,
   	"address": String,
   	"dob": String,
-  	"action": String, 
+  	"checked": Number, 
   	"ccard": { 
   		"cctype": String,
   		"ccname": String,

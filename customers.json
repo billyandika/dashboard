@@ -5,9 +5,18 @@
 		"phone": "0123893247",
 		"address": "Jl. Panjang",
 		"dob": "01/01/1987",
-		"ccard": [{"cctype": "Mastercard","ccname": "Adam Agrawal","digits": "7890","zipcode": "34254","expiry": "Dec 2016"},
-		{"cctype": "Mastercard","ccname": "Adam Agrawal","digits": "7890","zipcode": "34254","expiry": "Dec 2016"}],
-		"action": "Not Completed"
+		"ccard": [
+			{"cctype": "Mastercard",
+				"ccname": "Adam Agrawal",
+				"digits": "7890",
+				"zipcode": "34254",
+				"expiry": "Dec 2016"},
+			{"cctype": "Mastercard",
+			"ccname": "Adam Agrawal",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016"}],
+		"action": "0"
 	},
 	{
 		"name": "Laura Serrin",
@@ -17,12 +26,13 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Laura Serrin",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
+			"expiry": "Dec 2016",
+			"approve":	"0"
 		},"dob": "05/03/1980",
-		"action": "Not Completed"
+		"action": "0"
 	},
 	{
 		"name": "Francis Fadden",
@@ -33,12 +43,13 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Francis Fadden",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
+			"expiry": "Dec 2016",
+			"approve":	"0"
 		},
-		"action": "Not Completed"
+		"action": "0"
 	},
 	{
 		"name": "Elvis Ligon",
@@ -49,11 +60,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Elvis Ligon",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Donna Gigier",
@@ -64,11 +76,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Donna Gigier",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Gabriel Catherson",
@@ -79,11 +92,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Gabriel Catherson",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Not Completed"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	},
 	{
 		"name": "Hector Osgood",
@@ -94,11 +108,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Hector Osgood",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Etsuko Overton",
@@ -108,11 +123,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Etsuko Overtonl",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Wade Agrawal",
@@ -123,11 +139,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Wade Agrawall",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Not Completed"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	},
 	{
 		"name": "Tien Serrin",
@@ -138,11 +155,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Tien Serrin",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Not Completed"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	},
 	{
 		"name": "Scot Fadden",
@@ -153,11 +171,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Scot Fadden",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Not Completed"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	},
 	{
 		"name": "Robert Ligon",
@@ -168,11 +187,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Robert Ligon",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Orlando Gigier",
@@ -183,11 +203,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Orlando Gigierl",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Not Completed"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	},
 	{
 		"name": "Lucas Catherson",
@@ -198,11 +219,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Lucas Catherson",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Lenna Osgood",
@@ -213,11 +235,12 @@
 		"ccard": 
 		{
 			"cctype": "Mastercard",
-			"ccname": "Adam Agrawal",
+			"ccname": "Lenna Osgood",
 			"digits": "7890",
 			"zipcode": "34254",
-			"expiry": "Dec 2016"
-		},"action": "Done"
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "1"
 	},
 	{
 		"name": "Gino Overton",
@@ -225,6 +248,14 @@
 		"address": "Jl. Sudirman",
 		"phone": "0123893247",
 		"dob": "01/01/1987",
-		"action": "Not Completed"
+		"ccard": 
+		{
+			"cctype": "Mastercard",
+			"ccname": "Gino Overton",
+			"digits": "7890",
+			"zipcode": "34254",
+			"expiry": "Dec 2016",
+			"approve":	"0"
+		},"action": "0"
 	}
 ]
