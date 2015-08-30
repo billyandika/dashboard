@@ -1,8 +1,7 @@
 
 var Mongoose = require('mongoose');
 
-var ProjectSchema = new Mongoose.Schema({
-
+var CustomerSchema = new Mongoose.Schema({
   	"name": String,
   	"cid": String,
   	"phone": String,
@@ -18,16 +17,4 @@ var ProjectSchema = new Mongoose.Schema({
   	}
 });
 
-// var CardSchema = new Mongoose.Schema({
-// 		"type": String,
-// 		"digits": String,
-// 		"status": String,
-// 		"expiry": String
-// })
-
-exports.Project = Mongoose.model('Project', ProjectSchema);
-
-// exports.Card = Mongoose.model('Card', CardSchema);
-
-
-
+exports.Customer = Mongoose.model('Customer', CustomerSchema);

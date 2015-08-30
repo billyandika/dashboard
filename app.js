@@ -10,7 +10,7 @@ var handlebars = require('express3-handlebars');
 var mongoose = require('mongoose');
 
 var index = require('./routes/index');
-var project = require('./routes/project');
+var customer = require('./routes/customer');
 
 // Connect to the Mongo database, whether locally or on Heroku
 // MAKE SURE TO CHANGE THE NAME FROM 'lab7' TO ... IN OTHER PROJECTS
@@ -43,7 +43,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/project/:id', project.projectInfo);
+app.get('/customer/:id', customer.customertInfo);
 
 // Example route
 // app.get('/users', user.list);
