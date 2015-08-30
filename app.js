@@ -43,7 +43,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-app.get('/customer/:id', customer.customertInfo);
+app.get('/customer/:id', customer.customerInfo);
 
 // Example route
 // app.get('/users', user.list);

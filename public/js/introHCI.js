@@ -6,27 +6,27 @@ $(document).ready(function() {
 })
 
 function initializePage() {
-	$('.project a').click(function(e) {
+	$('.customer a').click(function(e) {
 		e.preventDefault();
 
-		var projectID = $(this).closest('.project').attr('id');
-		var idNumber = projectID.substr('project'.length);
+		var customerID = $(this).closest('.customer').attr('id');
+		var idNumber = customerID.substr('customer'.length);
 
-		var url_call = '/project/'+idNumber;
+		var url_call = '/customer/'+idNumber;
 
-		function addProjectDetails(project_json) {
+		function addcustomerDetails(customer_json) {
 
 			// var new_html =
-			// 	'<div class="project-date">'+'Card ID: '+project_json['date']+'</div>'+
-			// 	'<div class="project-summary">'+project_json['summary']+'</div>';
+			// 	'<div class="customer-date">'+'Card ID: '+customer_json['date']+'</div>'+
+			// 	'<div class="customer-summary">'+customer_json['summary']+'</div>';
 
-			// var details_div = $('#project' + idNumber + ' .details');
-			var details_div = $('#project' + idNumber);
+			// var details_div = $('#customer' + idNumber + ' .details');
+			var details_div = $('#customer' + idNumber);
 			details_div.html(new_html);
 		}
 
 		// issue the GET request
-		$.get(url_call, addProjectDetails);
+		$.get(url_call, addcustomerDetails);
 	});
 }
 
