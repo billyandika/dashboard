@@ -16,7 +16,7 @@
 			"digits": "7890",
 			"zipcode": "34254",
 			"expiry": "Dec 2016"}],
-		"action": "0"
+		"checked": "0"
 	},
 	{
 		"name": "Laura Serrin",
@@ -32,7 +32,7 @@
 			"expiry": "Dec 2016",
 			"approve":	"0"
 		},"dob": "05/03/1980",
-		"action": "0"
+		"checked": "0"
 	},
 	{
 		"name": "Francis Fadden",
@@ -49,7 +49,7 @@
 			"expiry": "Dec 2016",
 			"approve":	"0"
 		},
-		"action": "0"
+		"checked": "0"
 	},
 	{
 		"name": "Elvis Ligon",
@@ -65,7 +65,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Donna Gigier",
@@ -81,7 +81,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Gabriel Catherson",
@@ -97,7 +97,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	},
 	{
 		"name": "Hector Osgood",
@@ -113,7 +113,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Etsuko Overton",
@@ -128,7 +128,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Wade Agrawal",
@@ -144,7 +144,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	},
 	{
 		"name": "Tien Serrin",
@@ -160,7 +160,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	},
 	{
 		"name": "Scot Fadden",
@@ -176,7 +176,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	},
 	{
 		"name": "Robert Ligon",
@@ -192,7 +192,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Orlando Gigier",
@@ -208,7 +208,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	},
 	{
 		"name": "Lucas Catherson",
@@ -224,7 +224,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Lenna Osgood",
@@ -240,7 +240,7 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "1"
+		},"checked": "1"
 	},
 	{
 		"name": "Gino Overton",
@@ -256,6 +256,6 @@
 			"zipcode": "34254",
 			"expiry": "Dec 2016",
 			"approve":	"0"
-		},"action": "0"
+		},"checked": "0"
 	}
 ]

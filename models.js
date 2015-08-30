@@ -14,9 +14,10 @@ var CustomerSchema = new Mongoose.Schema({
   	"ccard": { 
   		"cctype": String,
   		"ccname": String,
-		"digits": String,
-		"zipcode": String,
-		"expiry": String
+  		"digits": String,
+  		"zipcode": String,
+  		"expiry": String,
+      "approve": Number
 	}
 });
 
