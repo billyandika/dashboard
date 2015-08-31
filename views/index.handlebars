@@ -204,7 +204,9 @@
                                                 <td>{{ccard.digits}}</td>
                                                 <td>{{ccard.zipcode}}</td>
                                                 <td>{{ccard.expiry}}</td>
-                                                <td>{{ccard.approve}}  <img src="/img/wrong.png" height="20" width="20">&nbsp;<img src="/img/correct.png" height="20" width="20"></td>
+                                                <td>{{ccard.approve}}  <img src="/img/wrong.png" height="20" width="20">&nbsp;<img src="/img/correct.png" height="20" width="20"><button id="rejectButton" type="button" class="btn btn-default">No</button>
+                    <button id="approveButton" type="button" class="btn btn-default">Yes</button></td>
+                                                
                                             </tr>
                                         </tbody>
                                     </table>
@@ -213,8 +215,7 @@
                         </tr>
                     </div>
 
-                    <button id="rejectButton" type="button" class="btn btn-default">No</button>
-                    <button id="approveButton" type="button" class="btn btn-default">Yes</button>
+                    
                     {{/each}}
 
                     </tbody>
